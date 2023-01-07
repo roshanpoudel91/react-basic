@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
  const name = "Roshan";
 
- const element = <h1>{(name == 'Roshan') ? 'My name is Roshan':'My name is Ajita'}</h1>
+ const element = <h1 data-sampleAttribute="sample">{(name == 'Roshan') ? 'My name is Roshan':'My name is Ajita'}</h1>
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
