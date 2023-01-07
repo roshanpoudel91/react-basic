@@ -5,15 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-
- const name = "Roshan";
-
- const element = <h1 data-sampleAttribute="sample">{(name == 'Roshan') ? 'My name is Roshan':'My name is Ajita'}</h1>
-
-
+const menuItems = [1,2,3,4,5];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  element
+  
+    <App menuItems={menuItems} />
+ 
 );
 
 
