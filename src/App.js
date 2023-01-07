@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+let alice = () => {};
+ 
+let bob = (b) => b;
+ 
+const usingMap = [1, 2, 3].map((number) => number * 2);
+console.log(usingMap); // [2, 4, 6]
+ 
+var immukul = { 
+    _name: "Mukul", 
+    _friends: ["Mukul", "Mayank"],
+     printFriends(){
+         this._friends.forEach(
+             f =>console.log(this._name + " knows " + f)); 
+            }
+        };
+ 
+console.log(immukul.printFriends());
