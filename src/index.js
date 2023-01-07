@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 
 const menuItems = [1,2,3,4,5];
+const menuItems2 = [1,2,3,4,5,6,7];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+  <div>
     <App menuItems={menuItems} />
+    <App menuItems={menuItems2} />
+  </div>
  
 );
 
